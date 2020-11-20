@@ -1,0 +1,11 @@
+version: '2'
+services:
+  testblueprint-postgresql:
+    image: postgres:12.1
+    # volumes:
+    #     - ~/volumes/jhipster/testblueprint/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=testblueprint
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432

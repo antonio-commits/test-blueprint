@@ -1,0 +1,55 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.noovle.testblueprint",
+      "nativeLanguage": "en"
+    },
+    "bundleName": "testblueprint-bundle",
+    "dockerOrganization": "antnoovle",
+    "generateMicroFrontends": "always",
+    "jhipsterVersion": "6.9.0",
+    "applicationType": "microservice",
+    "baseName": "testblueprint",
+    "packageName": "com.noovle.testblueprint",
+    "packageFolder": "com/noovle/testblueprint",
+    "serverPort": "8081",
+    "authenticationType": "oauth2",
+    "cacheProvider": "caffeine",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MjljMGEyNDhhOWExYzJlNjAxNzJhMzQ5NjBhOGI5MGZiYTU5MzJjZDkxOTEwN2E1ZDllYjFlYWI4NDMwMzY0OGFkNDlhZTAyMjAxNDU4ZjllMmVlMDFhZGZhMTgzMTA0MGI2NjQ2ZjZjY2ZkYWI0ODQxYjU0ODIwMTkyYzcxN2E=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1605881127421,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "skipCheckLengthOfIdentifier": false,
+    "otherModules": [
+      {
+        "name": "generator-jhipster-entando",
+        "version": "6.2.0"
+      }
+    ],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": ["en"],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-entando",
+        "version": "6.2.0"
+      }
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
