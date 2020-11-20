@@ -1,0 +1,25 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "testblueprint",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "marca",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modello",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20201120140826",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "serviceImpl",
+  "entityTableName": "automobile",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "infinite-scroll",
+  "microserviceName": "testblueprint"
+}

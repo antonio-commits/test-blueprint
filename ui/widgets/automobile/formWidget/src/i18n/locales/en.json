@@ -1,0 +1,34 @@
+{
+  "error": {
+    "dataLoading": "Error during server connection"
+  },
+  "common": {
+    "save": "Save",
+    "dataSaved": "Automobile successfully saved",
+    "dataDeleted": "Automobile successfully deleted",
+    "notAuthenticated": "User is not authenticated.",
+    "selectFile": "Upload new file",
+    "selectImageFile": "Upload new image",
+    "download": "Download",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "validation": {
+    "required": "{{field}} is required"
+  },
+  "entities": {
+    "automobile": {
+      "deleteDialog": {
+        "title": "Delete automobile",
+        "description": "Are you sure?"
+      },
+      "notFound": "Automobile not found",
+      "deleted": "Automobile deleted",
+      "id": "ID",
+      "marca": "entities.automobile.marca",
+      "modello": "entities.automobile.modello"
+    }
+  }
+}
